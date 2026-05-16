@@ -1,0 +1,38 @@
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# .NET
+bin/
+obj/
+*.user
+
+# Secrets
+.env
+*.env.local
+appsettings.Development.json
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Large data files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Personal project documentation
+docs/checkpoint_*.md
+docs/checkpoint_*.pdf
