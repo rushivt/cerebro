@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "description": "Validation rules for credit card transaction records",
+  "expected_columns": 31,
+  "required_columns": [
+    "Time",
+    "Amount",
+    "Class",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28"
+  ],
+  "column_rules": {
+    "Time": {
+      "type": "numeric",
+      "min": 0,
+      "max": null,
+      "nullable": false
+    },
+    "Amount": {
+      "type": "numeric",
+      "min": 0,
+      "max": 25000,
+      "nullable": false
+    },
+    "Class": {
+      "type": "integer",
+      "allowed_values": [0, 1],
+      "nullable": false
+    }
+  },
+  "v_columns_must_be_numeric": true
+}
