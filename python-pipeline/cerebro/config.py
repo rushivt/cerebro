@@ -26,7 +26,7 @@ from dotenv import load_dotenv
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 # Load .env file from project root if present
-load_dotenv(PROJECT_ROOT / ".env"
+load_dotenv(PROJECT_ROOT / ".env")
 
 
 # ---------------------------------------------------------------------------
